@@ -20,7 +20,8 @@ It was hard to find at first, but I successfully find the bug in test and fix it
 
 This project can showcase my passion to fix bugs effectively and write test correctly
 
-
+### TRAVIS CI 
+[![Build Status](https://travis-ci.com/emitamago/find-fix-bugs.svg?branch=master)](https://travis-ci.com/emitamago/find-fix-bugs)
 
 
 
