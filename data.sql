@@ -14,7 +14,7 @@ CREATE TABLE users (
 
 DROP DATABASE IF EXISTS "bankly_test";
 CREATE DATABASE "bankly_test";
-\c "bankly";
+\c "bankly_test";
 
 CREATE TABLE users (
     username text PRIMARY KEY,
