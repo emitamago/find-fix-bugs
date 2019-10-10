@@ -25,7 +25,7 @@ function requireAdmin(req, res, next) {
       return next();
     } else {
       // Change test to test
-      return next({ status: 401, message: 'Have to be AdminUnauthorized' });
+      return next({ status: 401, message: 'Have to be Admin. Unauthorized' });
     }
   } catch (err) {
     return next(err);

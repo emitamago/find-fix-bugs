@@ -23,7 +23,7 @@
     ```js
     if (!user) {throw new ExpressError('No such user', 404); }
     ```
-    Error is needed to be throw.
+    Error was needed to be throw.
 
 - BUG number three
     * models/user `update(username, data)` it will update any colums that passed in. Need to check passed data are vailed and throw error if the field in not allowed. Added if statement 
@@ -39,7 +39,7 @@
     There was a test for this but the test passed because of different error. Bug number four was a reason
 
     - BUG number four
-        * routes/user `patch users/:username` Because of middleware, only admin user could update. Non admin user could not update even it own data. Original version below
+        * routes/user `patch users/:username` Because of middleware, only admin user could update. Non admin user could not update even it own data. 
         
         BUG VERSION
         ```js
